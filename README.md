@@ -1,66 +1,55 @@
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/26466516/107675802-36216b80-6c77-11eb-8db1-4d3407dc53d9.png" alt="Next.js and TypeScript">
-</p>
+# Anime Streaming Platform
 
-<p align="center">
-  <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&style=for-the-badge&color=24B36B&labelColor=000000" alt="PRs welcome!" />
+## Overview
+The **Anime Streaming & Manga Platform** is a web-based application built using **Next.js** and **web scraping** techniques to fetch and display the latest anime, manga, and comics from various sources. It provides users with a seamless streaming and reading experience, allowing them to browse, search, and enjoy their favorite content.
 
-  <img alt="License" src="https://img.shields.io/github/license/chhpt/typescript-nextjs-starter?style=for-the-badge&color=24B36B&labelColor=000000">
+## Features
+- **Latest Anime & Manga Updates**: Automatically fetches the newest anime episodes, manga chapters, and comics from various sources.
+- **Smooth Streaming & Reading**: Provides high-quality video playback and an optimized reading experience.
+- **Advanced Search & Filters**: Allows users to search anime, manga, and comics by name, genre, release year, and popularity.
+- **User-Friendly UI**: Modern, responsive design optimized for both desktop and mobile devices.
+- **Multi-Source Support**: Aggregates content from multiple sources for a comprehensive library.
+- **Bookmark & Watchlist**: Users can save their favorite anime, manga, and comics to watch or read later.
+- **Dark & Light Mode**: Customizable UI themes for a personalized experience.
 
-  <a href="https://twitter.com/intent/follow?screen_name=cwuyiqing">
-    <img src="https://img.shields.io/twitter/follow/cwuyiqing?style=for-the-badge&color=24B36B&labelColor=000000" alt="Follow @chhpt" />
-  </a>
-</p>
+## Technologies Used
+- **Next.js** – Server-side rendering for fast and SEO-friendly performance.
+- **Web Scraping** – Fetching anime, manga, and comic data dynamically from external sources.
+- **Tailwind CSS** – Modern and responsive UI design.
+- **MongoDB/Firebase** (optional) – For user authentication and data storage.
+- **Puppeteer/Cheerio** – For scraping data efficiently.
 
-<br>
+## Deployment  
 
-A full-featured Next.js starter that includes all you need to build amazing projects 🔥. Fork and customize from [jpedroschmitz](https://github.com/jpedroschmitz/typescript-nextjs-starter)
+### Vercel  
+The platform is optimized for deployment on Vercel for seamless Next.js hosting.  
 
-- 🚀 **Next.js 15 App Router & React 18**
-- ⚙️ **Tailwind CSS 3** - A utility-first CSS framework
-- 🍓 **Styled Components** - Styling React component
-- 📏 **ESLint** — Pluggable JavaScript linter
-- 💖 **Prettier** - Opinionated Code Formatter
-- 🐶 **Husky** — Use git hooks with ease
-- 🚫 **lint-staged** - Run linters against staged git files
-- 😁 **shadcn** - Beautifully designed components that you can copy and paste into your apps.
-- 🗂 **Absolute import** - Import folders and files using the `@` prefix
-- 🤩 **Vercel Serverless/Edge Functions** - Serverless/Edge functions for Next.js
-
-## 🚀 Getting started
-
-The best way to start with this template is using `create-next-app`.
-
-```
-npx create-next-app ts-next -e https://github.com/chhpt/nextjs-starter
-```
-
-or
-
-```
-pnpm create next-app ts-next -e https://github.com/chhpt/nextjs-starter
-```
-
-If you prefer you can clone this repository and run the following commands inside the project folder:
-
-1. `pnpm install` or `npm install`;
-2. `pnpm dev`;
-
-To view the project open `http://localhost:3000`.
-
-## 🤝 Contributing
-
-1. Fork this repository;
-2. Create your branch: `git checkout -b my-new-feature`;
-3. Commit your changes: `git commit -m 'Add some feature'`;
-4. Push to the branch: `git push origin my-new-feature`.
-
-**After your pull request is merged**, you can safely delete your branch.
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for more information.
+### Docker (Optional)  
+The app can be containerized for better scalability.  
 
 ---
 
-Made with ♥ by Clare Chang
+## Future Enhancements  
+
+- User accounts and personalized recommendations  
+- Comments and reviews system  
+- Download functionality  
+- AI-powered anime and manga recommendations  
+
+---
+
+## Contribution  
+
+This project is open for contributions! Feel free to submit issues or pull requests on GitHub to improve features, fix bugs, or add new functionalities.  
+
+---
+
+## License  
+
+This project is for educational purposes only. Ensure compliance with legal guidelines when scraping content from external sources.  
+
+---
+
+## Contributors  
+
+We welcome contributions from the community! Join us in building the ultimate anime and manga platform🚀.  
